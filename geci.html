@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>荒城渡</title>
+    <style type="text/css">
+        body{
+            background-image: url("0.jpg");
+            background-size: 100% 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst {
+            0%{opacity: 0}
+            12%{opacity: 0}
+            13%{opacity: 100}
+            14%{opacity: 0} }
+        @keyframes mysecond {
+            0%{opacity: 0}
+            14%{opacity: 0}
+            15%{opacity: 100}
+            16%{opacity: 0} }
+        p{
+            font-size: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+        #yanzhong{
+            animation: myfirst 257s infinite;
+        }
+        #shouzhong{
+            animation: mysecond 257s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="mp3/周深 - 【薛洋】 荒城渡(1).mp3"   autoplay="autoplay" loop="loop">
+</audio>
+<p id="yanzhong">眼中浮尘</p>
+<P id="shouzhong">手中残魂</P>
+</body>
+</html>
